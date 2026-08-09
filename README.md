@@ -111,6 +111,8 @@ One command that works across Claude Code, Codex, Cursor, and any other agent th
 npx skills add sergebulaev/instagram-skills
 ```
 
+> **Found this useful? [Star the repo](https://github.com/sergebulaev/instagram-skills).** Curated Claude Code and Codex directories rank and gate by star count, so a star is what makes these skills findable for the next person. It is the only thing we ask. No signup, no email.
+
 ## What you can do
 
 Once installed, just ask Claude Code or Codex for help with Instagram. The right skill activates automatically.
@@ -324,6 +326,14 @@ the paste fallback.
 
 - [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
 - [Instagram Graph API content publishing](https://developers.facebook.com/docs/instagram-api/guides/content-publishing) - the platform API the publish layer builds on
+
+## Who builds this
+
+These skills come out of [Creative Content Crafts](https://cccrafts.ai), an engineering company. We build the machinery underneath a company's public voice: ICP parsing, engagement systems, content guardrails, and posting infrastructure. We do not sell the words themselves.
+
+We call that layer **content engineering**. Writing collapsed to the price of a chat subscription. What stayed valuable is everything below it: pulling every post your market wrote this week, keeping a live list of the people who matter, engaging on it daily with judgment in the loop, and catching the risky drafts before the platform does.
+
+This repo is the thin top layer of that stack, open-sourced. The engine underneath is what we build for clients.
 
 ## License
 
