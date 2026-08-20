@@ -17,6 +17,7 @@ DEST = ROOT / ".codex-marketplace" / "instagram-skills"
 PATHS_TO_COPY = [
     ".codex-plugin",
     "SKILL.md",
+    "README.md",
     "skills",
     "references",
     "lib",
