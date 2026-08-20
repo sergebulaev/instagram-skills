@@ -210,6 +210,14 @@ If Publora returns a `postGroupId`, you're set. Cancel the post in the Publora d
 
 > **Note on media:** Instagram rejects text-only posts. If you do not point a skill at an image or video, it returns the caption as a copy-paste block plus a reminder to attach your media in the app.
 
+## Optional: generate illustrations with Pixfaro
+
+Instagram is visual-first. The Carousel Planner can generate carousel slides and quote-cards and attach them automatically when publishing. Without a key it drafts the image prompt and asks you to generate it yourself, so nothing breaks.
+
+[Pixfaro](https://pixfaro.com) is a single image API over multiple models (from `flux-schnell` at $0.004 to `gpt-5-image`). It composites your handle, brand color, or logo onto the image as a **pixel-exact overlay**, so a cheap base model still renders crisp text on a carousel slide. Pull those brand fields from your [Voice & Brand Profile](references/voice-profile.md) (section 6) and every asset stays on-brand.
+
+Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `lib/pixfaro_client.py` and the wrappers `lib.illustrate(prompt, kind="carousel")` / `lib.refine(image_id, instruction)` return a hosted URL that flows straight into `lib.publish(..., media_urls=[url])`. `refine` edits a prior image by its id (cheaper than regenerating); results carry `cost`, `balance_after`, and a `premium` flag so the skills never quietly spend on a pricey model.
+
 ## Voice rules
 
 Every skill follows these rules automatically:
