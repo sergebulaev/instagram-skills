@@ -12,7 +12,7 @@
       "name": "instagram-skills",
       "source": "./",
       "description": "Bundle of 9 Instagram marketing skills for Claude Code and Codex with Instagram-native hook formulas, caption writing that front-loads the first 125 chars, a 10-slide carousel planner, viral hook extraction, 2026 hashtag sizing, a unified humanizer (rewrite plus pre-publish audit), cross-platform repurposing, a profile optimizer, an Apify-powered niche and profile audience insights reader, and a weekly Reels and carousel planner. Posts ship via Publora's draft, upload, schedule media flow.",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "author": {
         "name": "Serge Bulaev",
         "url": "https://github.com/sergebulaev"
