@@ -102,6 +102,13 @@ rules:
 - `../../references/media-workflow.md` - uploading 2-10 images in order
 - `references/slide-architecture.md` - per-formula slide spines and on-image text rules
 
+## Optional illustration
+
+Offer a generated image when a visual would lift reach. Draft a prompt and call
+`lib.illustrate(prompt, kind="carousel")`, pulling brand handle/color from Voice &
+Brand Profile section 6 for a pixel-exact overlay. Show the returned `url` + `cost`,
+then attach on publish via `media_urls=[url]`. Full workflow (incl. quote-cards):
+`../ig-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it drafts the prompt for you to generate manually.
 ## Related skills
 
 - `ig-caption-writer` - when the idea is a single image, not a carousel
