@@ -107,7 +107,7 @@ rules:
 Offer a generated image when a visual would lift reach. Draft a prompt and call
 `lib.illustrate(prompt, kind="carousel")`, pulling brand handle/color from Voice &
 Brand Profile section 6 for a pixel-exact overlay. Show the returned `url` + `cost`,
-then attach on publish via `media_urls=[url]`. Full workflow (incl. quote-cards):
+the generated image is your slide/post media (Instagram posts require media), so supply it through the normal Instagram media flow when publishing (it is not auto-attached via `media_urls`). Full workflow (incl. quote-cards):
 `../ig-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it drafts the prompt for you to generate manually.
 ## Related skills
 
