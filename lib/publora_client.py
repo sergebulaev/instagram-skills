@@ -169,6 +169,7 @@ class PubloraClient:
         platforms: list[str],
         scheduled_time: Optional[str] = None,
         platform_settings: Optional[dict[str, Any]] = None,
+        media_urls: Optional[list[str]] = None,
     ) -> dict[str, Any]:
         """Create a post group (a draft by default).
 
@@ -202,6 +203,8 @@ class PubloraClient:
             payload["scheduledTime"] = scheduled_time
         if platform_settings:
             payload["platformSettings"] = platform_settings
+        if media_urls:
+            payload["mediaUrls"] = media_urls
         return self._post("/create-post", payload)
 
     # ---- Media flow -------------------------------------------------------

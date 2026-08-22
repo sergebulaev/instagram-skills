@@ -1,7 +1,7 @@
 {
   "name": "instagram-skills",
   "description": "9 Claude Code and Codex skills for Instagram marketing: caption writing with a first-125-char hook, slide-by-slide carousel planning, viral Reel and carousel hook extraction, 2026 hashtag sizing, an AI-tell humanizer with pre-publish audit, cross-platform repurposing, profile optimization, niche and profile audience insights via Apify, and weekly content planning for Reels, carousels, and stories. Publora is the default publish layer for the draft, upload, schedule media flow.",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "author": {
     "name": "Serge Bulaev",
     "url": "https://github.com/sergebulaev"

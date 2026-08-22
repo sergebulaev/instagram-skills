@@ -136,11 +136,12 @@ def publish(
     """
     backend = active_backend()
     media = kwargs.get("media") or []
+    media_urls = kwargs.get("media_urls") or []  # hosted https URLs (e.g. from lib.illustrate)
 
     # Manual tier, or Publora configured but the user has not pointed us at
     # media files yet. Instagram cannot publish without media, so we surface the
     # copy-paste caption block and remind them to attach it.
-    if backend == "manual" or (backend == "publora" and not media):
+    if backend == "manual" or (backend == "publora" and not media and not media_urls):
         return {
             "mode": "manual",
             "message": manual_mode_message(draft_text, target_url, kind=kind),
@@ -148,7 +149,7 @@ def publish(
 
     if backend == "publora":
         # Local import so manual-tier users never need `requests` installed.
-        from .publora_client import PubloraClient
+        from .publora_client import PubloraClient, _utcnow_iso
 
         client = PubloraClient()
         platform_id = kwargs.get("platform_id") or os.getenv("INSTAGRAM_PLATFORM_ID")
@@ -159,6 +160,17 @@ def publish(
             video_type = "STORIES" if kind == "story" else "REELS"
             platform_settings = {"instagram": {"videoType": video_type}}
 
+        if media_urls and not media:
+            # One-shot: Publora fetches the hosted URLs server-side and attaches
+            # them (1 image -> photo post, 2-10 -> carousel), satisfying Instagram's
+            # media requirement without a local upload.
+            return client.create_post(
+                content=draft_text,
+                platforms=platforms,
+                scheduled_time=kwargs.get("scheduled_time") or _utcnow_iso(),
+                platform_settings=platform_settings,
+                media_urls=media_urls,
+            )
         return client.publish_media_post(
             content=draft_text,
             platforms=platforms,
