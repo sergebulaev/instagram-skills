@@ -1,7 +1,7 @@
 # Hook Classification Rules (Instagram)
 
 Feature extraction and scoring heuristics `ig-hook-extractor` uses to map a post
-to one of the 10 formulas in `../../references/hook-formulas.md`.
+to one of the 10 formulas in `../../../references/hook-formulas.md`.
 
 ## Step 1: detect the surface
 

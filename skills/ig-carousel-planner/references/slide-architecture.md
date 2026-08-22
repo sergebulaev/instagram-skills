@@ -87,4 +87,4 @@ payoff), not a padded 10.
 
 The caption can be short for a carousel because the slides carry the payload. It
 should: restate the hook for the "more" fold, add one line of context, carry the
-CTA, and hold the 3-5 sized hashtags. See `../../references/hashtag-strategy.md`.
+CTA, and hold the 3-5 sized hashtags. See `../../../references/hashtag-strategy.md`.
