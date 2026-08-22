@@ -1,6 +1,7 @@
 ---
 name: ig-profile-optimizer
-description: Audit and rewrite an Instagram profile end-to-end for 2026: profile photo, searchable NAME field weighted with a keyword, @handle, bio (150 chars: value plus topic plus proof), goal-matched link, category label, story highlights, the first-9 grid, and up to 3 pinned posts. Triggers on "review my Instagram profile", "fix my bio", "optimize highlights", "profile audit". The whole follow decision happens on the profile header. Not for writing captions (use ig-caption-writer).
+description: >-
+  Audit and rewrite an Instagram profile end-to-end for 2026: profile photo, searchable NAME field weighted with a keyword, @handle, bio (150 chars: value plus topic plus proof), goal-matched link, category label, story highlights, the first-9 grid, and up to 3 pinned posts. Triggers on "review my Instagram profile", "fix my bio", "optimize highlights", "profile audit". The whole follow decision happens on the profile header. Not for writing captions (use ig-caption-writer).
 ---
 
 # Instagram Profile Optimizer

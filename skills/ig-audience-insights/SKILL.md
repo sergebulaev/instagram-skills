@@ -1,6 +1,7 @@
 ---
 name: ig-audience-insights
-description: Read your Instagram niche and profile from real data via Apify, no login. Scan a hashtag for the posts traveling now (likes, comments, owner) to see the format and hook that works. Pull profile stats for any handle, yours or a competitor's: followers, posts, bio, category. Instagram hides who liked or commented on other accounts, so this is discovery plus profiles, not engagers. Triggers on "what works in my niche", "scan the hashtag", "competitor stats". Not for writing captions (use ig-caption-writer).
+description: >-
+  Read your Instagram niche and profile from real data via Apify, no login. Scan a hashtag for the posts traveling now (likes, comments, owner) to see the format and hook that works. Pull profile stats for any handle, yours or a competitor's: followers, posts, bio, category. Instagram hides who liked or commented on other accounts, so this is discovery plus profiles, not engagers. Triggers on "what works in my niche", "scan the hashtag", "competitor stats". Not for writing captions (use ig-caption-writer).
 ---
 
 # Instagram Audience Insights
