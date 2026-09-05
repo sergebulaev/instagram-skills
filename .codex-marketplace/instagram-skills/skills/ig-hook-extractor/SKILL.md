@@ -37,8 +37,8 @@ description of the Reel's first 3 seconds).
 - **Why it worked** psychologically and algorithmically
 - **Blank template** with `{slot}` markers matched to the original, ready for the
   user's topic
-- **Cautions:** anything in the original that would fail a 2026 audit (em dashes,
-  AI vocab, 30 hashtags, mixed media)
+- **Cautions:** anything in the original that would fail a 2026 audit (em
+  dashes over the cap, an AI-vocab cluster, 30 hashtags, mixed media)
 
 ## Steps
 

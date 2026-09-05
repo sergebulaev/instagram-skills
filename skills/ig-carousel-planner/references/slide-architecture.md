@@ -25,7 +25,10 @@ count. Put the best point on slide 2 or 3, never on slide 10.
   open loop ("most miss #4") pays off.
 - **Visual consistency.** Same font, same margins, same accent color across
   slides so it reads as one set.
-- **No em dashes** in on-image text; they leak the AI tell onto the image itself.
+- **Em dashes capped at one per slide** in on-image text, and only when it
+  does real work (a slide rarely needs one). The character is not a tell in
+  2026; a slide glued together by dashes is. Replace the excess with a colon
+  or a line break, never a period.
 
 ## IG5 - Listicle Carousel (goal: saves)
 

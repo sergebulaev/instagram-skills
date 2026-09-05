@@ -26,8 +26,9 @@ Formulas IG1-IG4 are **caption-first** shapes (single image or any post). IG5-IG
 are **carousel** shapes (slide-by-slide). IG9-IG10 are **Reel** shapes. Saves and
 shares are the underrated levers; design for them deliberately.
 
-> No em dashes anywhere in the fill-in slots below. They would leak straight into
-> the generated caption and read as an AI tell.
+> Keep em dashes under the cap in the fill-in slots below (about one per 100
+> words in the finished caption; a slot rarely needs one). A caption glued
+> together by dashes reads as AI; a single dash does not.
 
 ## Contents
 

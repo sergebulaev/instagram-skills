@@ -145,7 +145,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 | **Carousel Planner** | Plans a carousel slide by slide (up to 10): a hook slide that opens a loop, value slides front-loaded, and a payoff slide that earns the save and the follow |
 | **Hook Extractor** | Reverse-engineers the hook from any viral Reel or carousel. Maps it to one of the 10 Instagram formulas and returns a blank template you can fill |
 | **Hashtag Strategist** | Builds a sized 3-5 hashtag set (niche / mid / broad) you can actually rank in, matched to the post. The 2026 reality, not the 30-tag wall |
-| **Humanizer** | Strips em dashes, AI vocabulary ("leverage", "delve", "elevate"), rule-of-three lists, and emoji storms. Bundles a `--mode audit` pre-publish check |
+| **Humanizer** | Removes the AI tells human readers react to: 2026 AI vocabulary scored by paragraph density, reveal bridges, staccato fragment stacks, stacked triads, performed sincerity, emoji storms; caps em dashes at about one per 100 words instead of banning them (29% of human captions use one). Does not promise to beat detectors (no edit reliably does). Bundles a `--mode audit` pre-publish check |
 | **Content Planner** | Creates a weekly plan with a Reels / carousel / story mix, per-day hooks, posting times, a saves-and-shares goal, and a goal-mix balance check |
 | **Repurposer** | Turns a LinkedIn post, blog, YouTube script, or X thread into a native Instagram carousel or caption: re-hooked before the 125-char fold, off-platform artifacts stripped, never a copy-paste |
 | **Profile Optimizer** | Audits and rewrites the profile end-to-end: photo, searchable NAME field, bio (150 chars), goal-matched link, category label, highlights (covers, order, naming), the first-9 grid, and up to 3 pinned posts, with a scorecard and before/after rewrites |
@@ -222,9 +222,9 @@ Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `li
 
 Every skill follows these rules automatically:
 
-1. No em dashes. Biggest AI tell in 2026.
+1. Em dashes capped at about one per 100 words. The character stopped being a tell in 2026; the density is.
 2. Capitalize names. Always. Lowercase a brand reads as careless.
-3. No AI vocabulary: "leverage", "fundamentally", "streamline", "harness", "delve", "elevate", "dive in".
+3. No AI vocabulary clusters. One 2026 marker ("leverage", "significant", "elevate", "dive in") in a paragraph is English; three in one paragraph reads as AI and gets the paragraph rewritten.
 4. Specific numbers beat adjectives. "47 minutes" beats "fast".
 5. The hook lives in the first 125 chars (everything after is behind the "more" fold).
 6. Hashtags are sizing, not volume: 3-5 sized tags, not 30. 0-3 emoji.

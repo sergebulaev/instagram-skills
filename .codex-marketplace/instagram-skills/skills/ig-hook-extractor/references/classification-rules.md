@@ -68,13 +68,14 @@ Infer what the original optimized for from its structure and close:
 
 Copy the matched formula's skeleton from `hook-formulas.md`, keep its slot
 structure, and relabel the slots to the user's topic. Strip any AI tells the
-original had (do not propagate em dashes or a 30-hashtag block into the template).
+original had (do not propagate an AI-vocab cluster or a 30-hashtag block into
+the template; a single em dash in the original is fine).
 
 ## Step 6: audit the source
 
 Flag, so the user does not copy them:
-- em dashes / en dashes
-- AI vocabulary (leverage, fundamentally, delve, elevate)
+- em dashes above about one per 100 words; en dashes between clauses
+- an AI vocabulary cluster (3+ markers in one paragraph: leverage, fundamentally, significant, elevate)
 - 20-30 hashtags crammed at the top
 - engagement bait ("comment YES", "tag 3 friends")
 - a hook that only makes sense after the "more" fold

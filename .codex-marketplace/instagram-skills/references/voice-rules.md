@@ -6,10 +6,15 @@ them. Skill-local "Hard rules" sections only add format-specific overrides
 
 ## Hard rules
 
-1. **No em dashes** (`—`), en dashes (`–`), or double dashes (`--`). Biggest AI
-   tell in 2026, and it survives the copy into the caption box.
-2. **Use `..` or a line break** as a soft pause when you would reach for an em
-   dash. Reads human and matches how people actually caption on Instagram.
+1. **Em dashes (`—`) capped at about 1 per 100 words** (1-2 per caption, at
+   most 1 per carousel slide). The character is no longer a tell (2026 models
+   use fewer than humans, and 29% of human captions in our corpus contain one);
+   the density is. Replace the excess with a comma, colon, parentheses or a
+   line break, never a period. No en dashes (`–`) between clauses, no double
+   dashes (`--`).
+2. **Use `..` or a line break** as a soft pause when you would reach for a
+   second em dash. Reads human and matches how people actually caption on
+   Instagram.
 3. **Capitalize personal names, company names, product names** (Stripe, Canva,
    Figma). Lowercase a brand name and it reads as careless.
 4. **Sentence starts can be lowercase.** Lowercase openers are native to the
@@ -21,17 +26,29 @@ them. Skill-local "Hard rules" sections only add format-specific overrides
 7. **Don't hard-sell.** Instagram buries overtly promotional captions. Teach or
    tell a story, then point to the next step once.
 
-## Vocabulary blacklist
+## Vocabulary markers (density-scored)
 
-Never use:
+Count these per paragraph. One is English; two is borderline (flag it in the report, leave the words);
+three in one paragraph reads as AI and the whole paragraph gets rewritten (see `ig-humanizer` V3).
+The durable 2026 set (significant, crucial, notably, particularly,
+comprehensive, insights, robust, leverage, foster, landscape, nuanced,
+streamline, elevate, empower) counts alongside the older corporate words:
 - leverage, utilize, facilitate, streamline, robust, seamless, delve, navigate,
   unlock, harness, foster, cultivate, elevate, empower, dive in
 - fundamentally, essentially, ultimately, crucially, notably
 - landscape, ecosystem, paradigm, realm, tapestry, journey
+
+## Always forbidden (single hit, regardless of density)
+
+These are scrubbed on sight. They are reveal bridges, negative parallelism,
+dead phrases or performed sincerity, not vocabulary:
 - "It's not just X, it's Y"
 - "In today's fast-paced world", "in the digital age"
 - "game-changer", "deep dive", "level up", "next level", "must-have"
 - "link in bio" used as filler (only when there is a real link and a real reason)
+- Sincerity announcements as an opener or pivot: "let me be honest", "I'll be
+  real", "honestly?", "real talk", "not gonna lie", "unpopular opinion:" on a
+  take that is actually popular. State the fact flat instead.
 
 ## Instagram-native style
 
@@ -72,7 +89,8 @@ Never use:
 - Generic engagement bait ("double tap if you agree", "comment YES").
 - Overused openers: "Let's talk about..", "Here's the thing..", "POV:" on
   something that is not a POV.
-- Rule of three ("faster, cheaper, better").
+- Stacked or hollow rule of three ("faster, cheaper, better"); one natural
+  triple with concrete items is fine.
 - A first line that needs line 2 to make sense (the fold eats it).
 - 20+ hashtags stuffed at the top of the caption.
 - ALL CAPS lines for intensity. Carry intensity with word choice.

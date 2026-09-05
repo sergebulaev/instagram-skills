@@ -59,9 +59,12 @@ already-Instagram draft (use `ig-humanizer --mode audit`).
    3-5 sized set yourself (see `../../references/hashtag-strategy.md`). Place them
    as one block at the END of the caption or in the first comment, never as a
    mid-text wall.
-9. **Humanizer pass.** Run `ig-humanizer` on the result: em dashes, AI vocab,
-   rule-of-three, generic openers. Keep the user's real numbers and named
-   entities from the source.
+9. **Humanizer pass.** Run `ig-humanizer` V3 on the result: 2026 AI vocab by
+   paragraph density, em dashes above the cap (about one per 100 words, never
+   swapped for a period), stacked rule-of-three triads, generic openers and
+   reveal bridges. Fix only a paragraph that reads machine-flat; never
+   manufacture variance. Keep the user's real numbers and named entities from
+   the source.
 10. **Approval card.** Show: source -> Instagram mapping (what became what), the
     container (single caption or N-slide carousel), formula used, the hook (flag
     if over 125 chars), hashtag set, the media the user must attach, primary goal.
@@ -114,7 +117,8 @@ rules:
 - A mid-caption hashtag wall instead of one block at the end.
 - Presenting a caption with no media as ready to post.
 - ALL CAPS first line for intensity. Carry it with word choice.
-- Em dashes anywhere.
+- Em dashes above the cap (more than about one per 100 words), or an em dash swapped for a period.
+- "The result?" / "Here's the thing.." reveal bridges and staccato stacks added during the rewrite.
 - Rule-of-three lists without specifics.
 - "leverage", "fundamentally", "game-changer", "level up", "dive in".
 - Meta throat-clearing ("I originally posted this on...").

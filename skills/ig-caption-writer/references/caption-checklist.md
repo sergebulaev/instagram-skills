@@ -32,11 +32,27 @@ approval card. Mirrors the root algorithm checklist with caption-specific items.
 
 ## Voice scrub
 
-- [ ] No em dash (`—`), en dash (`–`), or double dash (`--`).
-- [ ] No AI vocabulary (leverage, fundamentally, delve, harness, elevate, dive in).
-- [ ] At least one specific number or named entity where the claim allows.
+- [ ] Em dashes (`—`) at or under about one per 100 words (1-2 per caption).
+      A single em dash is fine (29% of human captions have one). Replace only
+      the excess, with a comma, colon, parentheses or a line break, never a
+      period. No en dash (`–`) between clauses, no double dash (`--`).
+- [ ] No cluster of 2026 AI vocab (3+ markers in one paragraph = rewrite the
+      paragraph; one is fine): significant, crucial, notably, comprehensive,
+      insights, robust, leverage, foster, landscape, nuanced, streamline,
+      elevate, empower, dive in, fundamentally, essentially, ultimately; plus
+      "-ing" clause openers and "the X-tion of" nominalisations.
+- [ ] No reveal bridge ("The result?", "Here's the thing..", "Let's talk
+      about..", "Stop X, start Y") and no "It's not X, it's Y".
+- [ ] No sincerity announcement ("real talk", "not gonna lie", "POV:" on
+      something that is not a POV) and no hedge the author did not write.
+- [ ] No staccato stack ("Short. Punchy. Done.", "No X. No Y. Just Z."), no
+      one-word line for drama, at most 2 standalone fragments. Fix only a
+      paragraph that reads machine-flat; never manufacture variance.
+- [ ] At least one odd-precision number with a named referent, or a named
+      entity, where the claim allows. A bare number does not count.
 - [ ] 0-3 emoji, placed with intent, none sprinkled.
-- [ ] No rule-of-three list without concrete items.
+- [ ] At most one natural rule-of-three with concrete items; no stacked or
+      hollow triads.
 
 ## Media
 

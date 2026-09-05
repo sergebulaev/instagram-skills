@@ -61,7 +61,12 @@ single image. See `references/slide-architecture.md` for per-formula spines.
 7. **Write the caption.** The caption supports the carousel (it can be short),
    restates the hook for the fold, and carries the hashtags. Hand off to
    `ig-hashtag-strategist` or apply the 3-5 sized set.
-8. **Humanizer pass** on the on-image text and caption.
+8. **Humanizer pass** on the on-image text and caption. Scrub 2026 AI vocab
+   by density (per slide, per caption paragraph), cap em dashes (at most one
+   per slide, about one per 100 words in the caption; never swap one for a
+   period), break stacked triads and reveal bridges. Slides are short by
+   design: never chop or pad a slide for rhythm. Canonical rules:
+   `ig-humanizer` V3.
 9. **Approval card.** Show: formula, slide-by-slide outline with each slide's
    text, the caption, hashtag set, primary goal, and a reminder that the user
    supplies 2-10 images (all images, no mixed media) in this order.
@@ -92,7 +97,8 @@ rules:
 - Three competing CTAs on the payoff slide.
 - Mixing images and a video in one carousel.
 - On-image walls of text that cannot be read in a swipe.
-- Em dashes, AI vocab, rule-of-three.
+- Em dashes above the cap (more than one on a slide), AI vocab clusters, stacked or hollow rule-of-three.
+- "The result?" reveals and staccato stacks added for punch.
 
 ## Resources
 

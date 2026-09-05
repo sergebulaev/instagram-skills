@@ -155,9 +155,9 @@ friend, or save it to use later?
 ## Pre-publish checklist
 
 - [ ] First 125 chars of the caption stop the scroll on their own.
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`).
-- [ ] No AI vocabulary blacklist words (leverage, fundamentally, delve, etc.).
-- [ ] At least one specific number where the claim allows it.
+- [ ] Em dashes (`—`) at or under about one per 100 words (never swap one for a period); no en dashes (`–`) between clauses or double dashes (`--`).
+- [ ] No AI vocabulary cluster (3+ markers in one paragraph: leverage, fundamentally, significant, etc.).
+- [ ] At least one odd-precision number with a named referent where the claim allows it.
 - [ ] 3-5 sized hashtags (not 30), at the end or in the first comment.
 - [ ] 0-3 emoji, placed with intent, none sprinkled.
 - [ ] Carousel slide 1 promises and opens a loop; the last slide pays off + asks.

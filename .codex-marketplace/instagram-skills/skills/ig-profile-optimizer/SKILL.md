@@ -100,7 +100,7 @@ rules:
   truncated bio or a highlight name that cuts off.
 - Highlights and grid are judged as sets; fix order and consistency, not just
   single items.
-- No em dashes. No "leverage", "fundamentally", "game-changer", "elevate".
+- At most one em dash in the bio (a 150-char bio rarely needs one). No "leverage", "fundamentally", "game-changer", "elevate".
 
 ## Related skills
 

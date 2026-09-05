@@ -57,8 +57,13 @@ skill writes the supporting caption.
 6. **Add hashtags.** Hand off the topic to `ig-hashtag-strategist` or apply the
    3-5 sized set yourself (see `../../references/hashtag-strategy.md`). Put them at
    the end or note they go in the first comment.
-7. **Humanizer pass.** Strip em dashes, AI vocab, rule-of-three, generic openers.
-   Add a specific number or named entity where the claim allows.
+7. **Humanizer pass.** Scrub 2026 AI vocab by paragraph density, cap em
+   dashes (about one per 100 words; a caption's single dash is not a tell,
+   never swap one for a period), break stacked triads, generic openers and
+   reveal bridges. Fix only a paragraph that reads machine-flat; never
+   manufacture variance or one-word lines for drama. Add an odd-precision
+   number with a named referent or a named entity where the claim allows.
+   Canonical rules: `ig-humanizer` V3.
 8. **Optional audit.** Invoke `ig-humanizer --mode audit` for a pass-fail check.
 9. **Approval card.** Show: formula used, the hook (flag if over 125 chars),
    full caption, char count, hashtag set, primary goal, and the media the user
@@ -87,8 +92,10 @@ rules:
 ## Anti-patterns (skill will refuse)
 
 - A hook that only makes sense after the fold.
-- Em dashes anywhere.
-- "Let's talk about.." or "Here's the thing.." openers.
+- Em dashes above the cap (more than about one per 100 words), or an em dash swapped for a period.
+- "Let's talk about.." or "Here's the thing.." openers; "The result?" as a reveal.
+- Announced candor ("real talk", "not gonna lie", "POV:" on something that is not a POV) with no dated fact behind it.
+- Staccato stacks ("No X. No Y. Just Z.") and one-word lines added for drama.
 - 20-30 hashtags stuffed at the top.
 - Engagement bait ("double tap if you agree", "comment YES").
 - Rule-of-three lists without specifics.
