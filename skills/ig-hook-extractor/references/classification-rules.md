@@ -1,7 +1,7 @@
 # Hook Classification Rules (Instagram)
 
 Feature extraction and scoring heuristics `ig-hook-extractor` uses to map a post
-to one of the 10 formulas in `../../references/hook-formulas.md`.
+to one of the 10 formulas in `../../../references/hook-formulas.md`.
 
 ## Step 1: detect the surface
 
@@ -66,7 +66,7 @@ Infer what the original optimized for from its structure and close:
 
 ## Step 5: build the blank template
 
-Copy the matched formula's skeleton from `hook-formulas.md`, keep its slot
+Copy the matched formula's skeleton from `../../../references/hook-formulas.md`, keep its slot
 structure, and relabel the slots to the user's topic. Strip any AI tells the
 original had (do not propagate an AI-vocab cluster or a 30-hashtag block into
 the template; a single em dash in the original is fine).

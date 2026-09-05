@@ -1,7 +1,7 @@
 # Hashtag Sourcing Tactics
 
 How `ig-hashtag-strategist` finds and sizes candidate tags. Pairs with the full
-model in `../../references/hashtag-strategy.md`.
+model in `../../../references/hashtag-strategy.md`.
 
 ## Finding niche tags (the workhorses)
 
