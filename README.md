@@ -171,6 +171,8 @@ By default, the skills draft the caption for you to post in the Instagram app wi
 
 [Publora](https://publora.com) is a publishing API that handles the Instagram media flow (draft, upload, schedule) in one call, and can cross-post the same content to other networks.
 
+Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
+
 ### Setup (2 minutes)
 
 **Step 1.** Sign up at https://app.publora.com/signup (free)
