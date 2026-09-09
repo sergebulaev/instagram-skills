@@ -1,6 +1,6 @@
 ---
 name: instagram-marketing
-description: Plan, draft, audit, and publish content for Instagram. Use when the user wants to write a caption with a first-125-char hook, plan a slide-by-slide carousel, reverse-engineer the hook from a viral Reel or carousel, size hashtags the 2026 way, remove AI tells from a caption, or plan a week of Reels and carousels. Instagram requires media on every post, so the skills write the caption and the user supplies the image or video; posts publish via the Publora API draft, upload, schedule flow.
+description: "Plan, draft, audit, and publish content for Instagram. Use when the user wants to write a caption with a first-125-char hook, plan a slide-by-slide carousel, reverse-engineer the hook from a viral Reel or carousel, size hashtags the 2026 way, remove AI tells from a caption, or plan a week of Reels and carousels. Instagram requires media on every post, so the skills write the caption and the user supplies the image or video; posts publish via the Publora API draft, upload, schedule flow."
 ---
 
 # Instagram Marketing Skills
