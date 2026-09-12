@@ -24,7 +24,7 @@ agent (Claude Code, Codex, OpenClaw).
 
 1. **Pick the kind.** Default for Instagram is `carousel` (aspect 4:5). Override
    with `aspect_ratio="w:h"` when needed. Other kinds: thumbnail 16:9, carousel/
-   quote/portrait 4:5, story/cover 9:16, wide/link 1200:628, square 1:1.
+   quote/portrait 4:5, story/cover 9:16, wide/link 16:9, square 1:1.
 2. **Craft the prompt.** Describe subject, composition, style, palette. Default
    to a clean professional look unless Voice & Brand Profile §6 sets a visual
    style. Do NOT bake the post's words into the art (use overlay).
