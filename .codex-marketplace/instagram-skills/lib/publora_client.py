@@ -41,6 +41,7 @@ from datetime import datetime, timezone
 from typing import Any, Optional
 
 import requests
+from ._env import load_env
 
 
 def _utcnow_iso() -> str:
@@ -146,6 +147,7 @@ class PubloraClient:
     BASE_URL = "https://api.publora.com/api/v1"
 
     def __init__(self, api_key: Optional[str] = None, timeout: float = 60.0):
+        load_env()
         self.api_key = api_key or os.getenv("PUBLORA_API_KEY")
         if not self.api_key:
             raise PubloraError(

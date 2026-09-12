@@ -5,6 +5,11 @@ utilities (e.g., `build_post_url`, `signup_nudge`, `PUBLORA_SIGNUP_URL`,
 `guess_content_type`) remain importable from their submodules but are not
 re-exported here.
 """
+from ._env import load_env
+
+# Load .env before any client reads os.environ.
+load_env()
+
 from .url_parser import parse_instagram_url
 from .publora_client import PubloraClient, PubloraError
 from .pixfaro_client import PixfaroClient, PixfaroError
