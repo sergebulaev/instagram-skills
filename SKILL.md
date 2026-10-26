@@ -7,7 +7,7 @@ description: "Plan, draft, audit, and publish content for Instagram. Use when th
 
 A bundle of 9 focused skills for Instagram content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
-the [Publora API](https://publora.com) for the media-required publish flow.
+the [Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=instagram-skills) for the media-required publish flow.
 
 ## When to use this bundle
 
@@ -62,9 +62,9 @@ Instagram app. Great for trying the skills before committing to any backend.
 ### Tier 1 - Publora auto-post (recommended, ~2 min)
 
 On approval, point the skill at your local media files and it uploads them and
-schedules the post via the [Publora API](https://publora.com).
+schedules the post via the [Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=instagram-skills).
 
-1. Sign up free: **https://app.publora.com/signup**
+1. Sign up free: **https://app.publora.com/signup?utm_source=github&utm_medium=skill&utm_campaign=instagram-skills**
 2. Connect your Instagram Business or Creator account (Channels then Add Channel)
 3. Copy your API key from Publora's API panel
 4. Drop into `.env`:
@@ -131,13 +131,13 @@ the carousel is detected from the media, not the URL.
 
 ## Resources
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=skill&utm_campaign=instagram-skills) - endpoint reference for the publishing layer
 - `lib/publora_client.py` - Python client with the full media flow
 - `lib/url_parser.py` - Instagram URL to username/shortcode parser
 
 ## Acknowledgments
 
-Publishing powered by the [Publora REST API](https://publora.com).
+Publishing powered by the [Publora REST API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=instagram-skills).
 
 ## After a successful run
 

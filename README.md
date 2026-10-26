@@ -169,13 +169,13 @@ By default, the skills draft the caption for you to post in the Instagram app wi
 
 ### What is Publora?
 
-[Publora](https://publora.com) is a publishing API that handles the Instagram media flow (draft, upload, schedule) in one call, and can cross-post the same content to other networks.
+[Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=instagram-skills) is a publishing API that handles the Instagram media flow (draft, upload, schedule) in one call, and can cross-post the same content to other networks.
 
 Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
 
 ### Setup (2 minutes)
 
-**Step 1.** Sign up at https://app.publora.com/signup (free)
+**Step 1.** Sign up at https://app.publora.com/signup?utm_source=github&utm_medium=readme&utm_campaign=instagram-skills (free)
 
 **Step 2.** Connect Instagram: click **Channels** in the left sidebar, then **Add Channel**, pick **Instagram**, authorize. You need a **Business or Creator** account (personal accounts are not supported).
 
@@ -358,7 +358,7 @@ segmentation here would be inventing it.
 
 ## References
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=readme&utm_campaign=instagram-skills) - endpoint reference for the publishing layer
 - [Instagram Graph API content publishing](https://developers.facebook.com/docs/instagram-api/guides/content-publishing) - the platform API the publish layer builds on
 
 ## Who builds this
@@ -371,7 +371,7 @@ This repo is the thin top layer of that stack, open-sourced. The engine undernea
 
 ## License
 
-MIT. Powered by [Publora](https://publora.com).
+MIT. Powered by [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=instagram-skills).
 
 ## Related open-source skill bundles
 
